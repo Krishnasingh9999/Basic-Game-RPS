@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: 
+#31acce;
+}
+
+h1{
+    background-color: rgb(8, 32, 61);
+    color: white;
+    line-height: 60px;
+}
+
+.choice{
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+}
+img{
+    height: 150px;
+    width: 150px;
+    transform:rotate(-90deg);
+    object-fit: cover;
+}
+
+#rock{
+    margin-bottom: 3.5px;
+}
+
+#scissor{
+    margin-top: 2px;
+    padding-bottom: 3.5px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 25px;
+}
+
+.chooseimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    gap: 5rem;
+}
+
+.scr-brd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2.6rem;
+    gap: 5rem;
+}
+
+#user-scr, #comp-scr{
+    font-size: 4rem;
+}
+
+.msg-contr{
+    margin-top: 3rem;
+}
+#msg{
+    background-color: rgba(0, 0, 0, 0.81);
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#Uimg{
+    opacity: 1;
+    margin-top: 7px;
+}
+
+#Cpimg{
+    opacity: 1;
+    margin-top: 7px;
+}
