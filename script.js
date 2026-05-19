@@ -31,8 +31,8 @@ const UpdateImg = (userChoice, cmpuChoice) => {
     const userImg = document.createElement("img");
     const compImg = document.createElement("img");
     
-    userImg.src = `images/${userChoice}.png`;
-    compImg.src = `images/${cmpuChoice}.png`;
+    userImg.src = `./${userChoice}.png`;
+    compImg.src = `./${cmpuChoice}.png`;
 
     userImg.alt = userChoice;
     compImg.alt = cmpuChoice;
